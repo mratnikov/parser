@@ -1,0 +1,9 @@
+def _poisk_veroyatnosti(a,b):
+    c = 1/a + 1/b
+    if c < 1:
+        print(c)
+    return
+
+a = float(input())
+b = float(input())
+_poisk_veroyatnosti(a,b)
